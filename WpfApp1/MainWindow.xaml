@@ -8,11 +8,12 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid x:Name="Main">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="11*"/>
-            <ColumnDefinition Width="61*"/>
+            <ColumnDefinition Width="121*"/>
+            <ColumnDefinition Width="537*"/>
+            <ColumnDefinition Width="134*"/>
         </Grid.ColumnDefinitions>
         <Grid x:Name="Menu" HorizontalAlignment="Left" Width="150" Background="Black" Grid.ColumnSpan="2"/>
-        <Frame x:Name="MainPage" Margin="29,0,0,0" NavigationUIVisibility="Hidden" Background="DimGray" Grid.Column="1"></Frame>
+        <Frame x:Name="MainPage" Margin="29,0,0,0" NavigationUIVisibility="Hidden" Background="DimGray" Grid.Column="1" Grid.ColumnSpan="2"></Frame>
         <StackPanel HorizontalAlignment="Left" Height="400" VerticalAlignment="Center" Width="150" Grid.ColumnSpan="2" Margin="0,10,0,9">
             <Button x:Name="button" Content="Button 1" Width="120" Click="btn_1" Height="50" Margin="8,5" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top"/>
             <Button x:Name="button1" Content="Button 2" Width="120" Click="btn_2" Height="50" Margin="8,5" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top"/>
